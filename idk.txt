@@ -1,0 +1,3 @@
+Add-Type -AssemblyName PresentationCore,PresentationFramework
+$msgBody = "YOUR COMPUTER HAS AIDS"
+[System.Windows.MessageBox]::Show($msgBody)
