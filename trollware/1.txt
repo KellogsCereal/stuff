@@ -1,1 +1,1 @@
-while ($true) {$obj = new-object -com wscript.shell; $obj.SendKeys([char]175); start-sleep -seconds 0.01}; start-process "C:\Program Files\Google\Chrome\Application\chrome.exe" https://www.youtube.com/watch?v=dQw4w9WgXcQ
+while ($true) {$obj = new-object -com wscript.shell; $obj.SendKeys([char]175); start-sleep -seconds 0.01}; start-process "C:\Program Files\Google\Chrome\Application\chrome.exe" https://www.youtube.com/watch?v=HDbP389N_48
